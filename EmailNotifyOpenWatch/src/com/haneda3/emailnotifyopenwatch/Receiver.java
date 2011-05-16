@@ -9,7 +9,7 @@ public class Receiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		Intent it = new Intent("com.smartmadsoft.openwatch.action.ENVELOPE");
-        context.sendBroadcast(it);
+		context.sendBroadcast(it);
 	}
 
 }
